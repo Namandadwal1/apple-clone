@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    /* display: flex; */
+    position: sticky;
+
+    top: 0;
+}
+
+nav {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 23px;
+
+
+}
+
+ul li {
+    list-style-type: none;
+    display: inline;
+    margin: 18px;
+    box-sizing: border-box;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 12px;
+    margin-right: 15px;
+}
+
+.nav1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main1 {
+    background-image: url(assests/images/resized_image.jpg);
+    background-position: center center;
+    width: 100%;
+    height: 580px;
+    background-size: 3008px 580px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+
+}
+
+h2 {
+    font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -.005em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.subhead {
+    font-size: 28px;
+    line-height: 1.14286;
+    font-weight: 400;
+    letter-spacing: .007em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    margin-top: 6px;
+    text-align: center;
+}
+
+.subset {
+    font-size: 23px;
+    text-align: center;
+    font-weight: 400;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.para {
+    text-align: center;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    margin-top: 12px;
+}
+
+.svg {
+    display: flex;
+    margin-right: 23px;
+    align-items: center;
+}
+.button ul li{
+    display: inline-block;
+    
+
+}
+.learn{
+    border: 2px solid  rgb(47, 139, 245);
+    margin-left: 23px;
+    padding: 15px;
+    background-color: rgb(47, 139, 245);
+    border-radius: 29px;
+    color: white;
+    font-weight: 400;
+    font-size: large;
+    position: relative;
+}
+.order{
+    border: 2px solid  rgb(47, 139, 245);
+    margin-left: 0px;
+    padding: 15px;
+    background-color: rgb(242, 248, 255);
+    border-radius: 29px;
+    color:  rgb(47, 139, 245);
+    font-weight: 400;
+    font-size: large;
+    position: relative;
+}
+
+.button ul li a{
+    text-decoration: none;
+    
+}
+.button{
+    margin-top: 23px;
+}
+.divider{
+    background-color: rgb(255, 255, 255);
+    height: 5px;
+}
+.main2{
+    background-image: url(assests/images/mac_studio.jpg);
+    background-position: center center;
+    width: 100%;
+    height: 580px;
+    text-align: center;
+    background-size: 3008px 580px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+.main3{
+    background-image: url(assests/images/ipad_ipad.jpg);
+    background-position: center center;
+    width: 100%;
+    height: 580px;
+    background-size: 3008px 580px;
+    text-align: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+.main4{
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 5px;
+
+}
+.grid1{
+    background-image: url(assests/images/promo_grid1.jpg);
+    background-color: beige;
+    background-position: center center;
+    width: 100%;
+    height: 580px;
+    /* background-size: 3008px 580px; */
+    text-align: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+.grid{
+    /* margin: 5px; */
+}
+.content1{
+    font-family:"SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif ;
+    text-align: center;
+    
+}
+.content1 .gridh1{
+    font-size: 45px;
+    font-weight: 600;
+}
+.content1 .subhead{
+font-size: medium;
+}
+.content1 .subset{
+font-size: medium;
+}
+.content1 .para3{
+    font-size: small;
+}
+.grid2{
+    background-image: url(assests/images/promo_grid2.jpg);
+    background-position: center center;
+    width: 100%;
+    height: 580px;
+    /* background-size: 3008px 580px; */
+    text-align: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+
+
